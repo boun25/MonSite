@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    height: 100%;
+}
+body{
+    background: rgb(164, 222, 113);
+    font-family: 'Courier New', Courier, monospace;
+   display: grid;
+   grid-template-rows:auto 1fr auto;
+}
+.content{
+padding: 125px 50px 50px;
+background: rgb(244, 227, 247);
+
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
+footer{
+    background: rgb(196, 182, 226);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+nav{
+    background: #888;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    color: bisque;
+    text-decoration: none;
+    margin-right: 50px;
+}
+footer{
+    background: #888;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+
+}
+table,
+tr,
+td
+{
+    border:1px solid black;
+}
