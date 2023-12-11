@@ -60,6 +60,7 @@
             <a href="inserD.php">inserte</a>
             <a href="recherche.php">recherche</a>
             <a href="img.php">images</a>
+            <a href="compCentre.php">compteur</a>
 
         </nav>
      </header>
