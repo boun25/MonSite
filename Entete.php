@@ -5,12 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
-</head>
+
+<style>
+     nav {
+        border: 1px solid #000; /* Add a 1px solid border with a light gray color */
+        padding: 10px; /* Add some padding to the navigation bar */
+    }
+
+    #menu8 a {
+        text-decoration: none; /* Remove underlines from links */
+        margin:  10px; /* Add some spacing between the links */
+        border: 5px solid red;
+
+    }
+  </style>
+    </head>
+
 <body>
+ 
 <header>
  <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -45,7 +61,7 @@
   </div>
 </nav>  
 
-        <nav>
+        <nav id="menu8">
             <a href="index.php">Acceuil</a>
             <a href="Structure.php">structure</a>
             <a href="contact.php">contact</a>
@@ -61,6 +77,8 @@
             <a href="recherche.php">recherche</a>
             <a href="img.php">images</a>
             <a href="compCentre.php">compteur</a>
+            <a href="apiHTMl5.php">les api</a>
+
 
         </nav>
      </header>
